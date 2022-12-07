@@ -1,4 +1,4 @@
-defmodule Problems.Solution do
+defmodule Problems.Solution1 do
   def run(filename) do
     File.read!(filename)
     |> String.split("\n")
@@ -6,7 +6,10 @@ defmodule Problems.Solution do
     |> Stream.map(&parse_integer_string_list/1)
     |> Stream.map(&Enum.sum/1)
     |> Enum.to_list()
-    |> Enum.max()
+    |> Enum.sort()
+    |> Enum.reverse()
+    |> Enum.take(3)
+    |> Enum.sum()
   end
 
   defp chunk_fun("", acc), do: {:cont, Enum.reverse(acc), []}
