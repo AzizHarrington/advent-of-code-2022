@@ -1,4 +1,5 @@
 defmodule Problems.Solution2 do
+  import Aoc22
   def run(filename) do
     load_file(filename)
     |> Stream.map(&(String.split(&1, " ")))
@@ -39,9 +40,4 @@ defmodule Problems.Solution2 do
   defp match_score(:win), do: 6
   defp match_score(:draw), do: 3
   defp match_score(:lose), do: 0
-
-  defp load_file(filename) do
-    File.read!(filename)
-    |> String.split("\n")
-  end
 end

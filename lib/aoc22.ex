@@ -15,4 +15,9 @@ defmodule Aoc22 do
   def hello do
     :world
   end
+
+  def load_file(filename) do
+    File.read!(filename)
+    |> String.split("\n")
+  end
 end
