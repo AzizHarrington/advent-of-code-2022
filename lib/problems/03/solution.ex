@@ -1,6 +1,6 @@
 defmodule Problems.Solution3 do
   import Aoc22
-  def run(filename) do
+  def part1(filename) do
     priorities = priorities()
 
     load_file(filename)
@@ -10,8 +10,17 @@ defmodule Problems.Solution3 do
     |> Stream.map(&Enum.to_list/1)
     |> Stream.map(fn [item] -> get_priority(item, priorities) end)
     |> Enum.sum()
+  end
 
-    # priorities
+  def part2(filename) do
+    priorities = priorities()
+
+    load_file(filename)
+    |> Stream.chunk_every(3)
+    |> Stream.map(&find_intersection/1)
+    |> Stream.map(&Enum.to_list/1)
+    |> Stream.map(fn [item] -> get_priority(item, priorities) end)
+    |> Enum.sum()
   end
 
   defp split_compartments(ruck_sack) do
@@ -21,8 +30,8 @@ defmodule Problems.Solution3 do
     )
   end
 
-  defp character_set(compartment) do
-    compartment
+  defp character_set(str) do
+    str
     |> String.codepoints()
     |> MapSet.new()
   end
@@ -44,5 +53,13 @@ defmodule Problems.Solution3 do
 
   defp string_list(range) do
     range |> Enum.to_list |> List.to_string |> String.codepoints
+  end
+
+  defp find_intersection(enumerables) do
+    enumerables
+    |> Enum.map(&character_set/1)
+    |> Enum.reduce(fn e, acc ->
+      MapSet.intersection(e, acc)
+    end)
   end
 end
