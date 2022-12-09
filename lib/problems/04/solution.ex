@@ -4,7 +4,8 @@ defmodule Problems.Solution4 do
   def run(filename) do
     file = load_file(filename)
 
-    part1(file)
+    IO.inspect part1(file)
+    IO.inspect part2(file)
   end
 
   def part1(file) do
@@ -19,7 +20,22 @@ defmodule Problems.Solution4 do
     end)
     |> Stream.map(&full_overlap/1)
     |> Enum.to_list()
-    |> count_overlaps(0)
+    |> Enum.filter(&(&1 == true))
+    |> Enum.count()
+  end
+
+  def part2(file) do
+    file
+    |> Stream.map(fn pair -> String.split(pair, ",") end)
+    |> Stream.map(fn pair ->
+      pair
+      |> Enum.map(&convert_to_tuple/1)
+      |> Enum.sort()
+    end)
+    |> Stream.map(&partial_overlap/1)
+    |> Enum.filter(&(&1 == true))
+    # |> Enum.to_list()
+    |> Enum.count()
   end
 
   defp convert_to_tuple(str_range) do
@@ -35,13 +51,10 @@ defmodule Problems.Solution4 do
     a_lower <= b_lower && b_upper <= a_upper
   end
 
-  defp count_overlaps([], count), do: count
-
-  defp count_overlaps([ false | rest], count) do
-    count_overlaps(rest, count)
-  end
-
-  defp count_overlaps([ true | rest], count) do
-    count_overlaps(rest, count + 1)
+  # [{58, 78}, {83, 89}],
+  # [{24, 99}, {24, 98}],
+  # [{22, 37}, {21, 36}],
+  defp partial_overlap([{a_lower, a_upper}, {b_lower, _}]) do
+    a_lower <= b_lower && b_lower <= a_upper
   end
 end
