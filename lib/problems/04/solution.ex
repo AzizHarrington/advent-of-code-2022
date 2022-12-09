@@ -34,7 +34,6 @@ defmodule Problems.Solution4 do
     end)
     |> Stream.map(&partial_overlap/1)
     |> Enum.filter(&(&1 == true))
-    # |> Enum.to_list()
     |> Enum.count()
   end
 
@@ -51,9 +50,6 @@ defmodule Problems.Solution4 do
     a_lower <= b_lower && b_upper <= a_upper
   end
 
-  # [{58, 78}, {83, 89}],
-  # [{24, 99}, {24, 98}],
-  # [{22, 37}, {21, 36}],
   defp partial_overlap([{a_lower, a_upper}, {b_lower, _}]) do
     a_lower <= b_lower && b_lower <= a_upper
   end
