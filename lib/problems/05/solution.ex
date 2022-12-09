@@ -5,6 +5,7 @@ defmodule Problems.Solution5 do
     file = load_file(filename)
 
     IO.inspect part1(file)
+    IO.inspect part2(file)
   end
 
   defp part1(file) do
@@ -15,27 +16,55 @@ defmodule Problems.Solution5 do
     stacks = parse_stacks(raw_stacks)
     procedures = parse_procedures(raw_procedures)
 
-    apply_procedures(procedures, stacks)
+    mover_9000(procedures, stacks)
   end
 
-  defp apply_procedures([], stacks), do: stacks
-  defp apply_procedures([ {num, from, to} | procs ], stacks) do
+  defp part2(file) do
+    {raw_stacks, [_ | raw_procedures]} =
+      file
+      |> Enum.split_while(fn l -> l != "" end)
+
+    stacks = parse_stacks(raw_stacks)
+    procedures = parse_procedures(raw_procedures)
+
+    mover_9001(procedures, stacks)
+  end
+
+  defp mover_9000([], stacks), do: stacks
+  defp mover_9000([ {num, from, to} | procs ], stacks) do
     {parsed_num, _} = Integer.parse(num)
 
     updated_stacks =
       1..parsed_num |> Enum.reduce(stacks, fn _, acc ->
-        move(from, to, acc)
+        move_one(from, to, acc)
       end)
 
-    apply_procedures(procs, updated_stacks)
+    mover_9000(procs, updated_stacks)
   end
 
-  defp move(from, to, stacks) do
+  defp move_one(from, to, stacks) do
     [ crate | from_stack ] = Map.get(stacks, from)
     to_stack = Map.get(stacks, to)
 
     from_updated = Map.put(stacks, from, from_stack)
     Map.put(from_updated, to, [ crate | to_stack ])
+  end
+
+  defp mover_9001([], stacks), do: stacks
+  defp mover_9001([ {num, from, to} | procs ], stacks) do
+    {parsed_num, _} = Integer.parse(num)
+
+    updated_stacks = move_all(parsed_num, from, to, stacks)
+
+    mover_9001(procs, updated_stacks)
+  end
+
+  defp move_all(num, from, to, stacks) do
+    from_stack = Map.get(stacks, from)
+    to_stack = Map.get(stacks, to)
+
+    from_updated = Map.put(stacks, from, Enum.drop(from_stack, num))
+    Map.put(from_updated, to,  Enum.take(from_stack, num) ++ to_stack )
   end
 
   defp parse_stacks(raw_stacks) do
