@@ -20,4 +20,8 @@ defmodule Aoc22 do
     File.read!(filename)
     |> String.split("\n")
   end
+
+  def drop_last(list) do
+    list |> Enum.reverse() |> tl() |> Enum.reverse()
+  end
 end
