@@ -1,5 +1,4 @@
 defmodule Problems.Solution6 do
-  alias Inspect.Stream
   import Aoc22
 
   def run(filename) do
