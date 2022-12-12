@@ -1,0 +1,860 @@
+%{
+  "/" => %{
+    children: %{
+      "ddpgzpc" => %{
+        children: %{
+          "mlm" => %{children: %{}, files: [{"zfhnw.zpd", 102897}]},
+          "zffbmlbd" => %{
+            children: %{
+              "bqpwdh" => %{
+                children: %{
+                  "bhmw" => %{children: %{}, files: [{"zbcbr", 190433}]},
+                  "lfhgjw" => %{
+                    children: %{
+                      "ndrcgmd" => %{children: %{}, files: [{"mjm.dhc", 98160}]}
+                    },
+                    files: []
+                  },
+                  "pjqwq" => %{
+                    children: %{},
+                    files: [
+                      {"mlm.rhf", 272969},
+                      {"mlm", 305433},
+                      {"mjm.dhc", 186171},
+                      {"dtzw", 50937}
+                    ]
+                  }
+                },
+                files: [{"dtzw", 27669}]
+              },
+              "gqrlmdhs" => %{
+                children: %{
+                  "blc" => %{
+                    children: %{},
+                    files: [
+                      {"pjqwq", 65105},
+                      {"ggh.qsl", 115417},
+                      {"drjdcqw.szd", 53872}
+                    ]
+                  },
+                  "mlm" => %{
+                    children: %{
+                      "bqpwdh" => %{
+                        children: %{
+                          "jzfgz" => %{children: %{}, files: [{"dtzw", 334790}]}
+                        },
+                        files: []
+                      },
+                      "sdjnlsf" => %{
+                        children: %{
+                          "vpdbrh" => %{
+                            children: %{},
+                            files: [
+                              {"vwl.vsq", 295126},
+                              {"rpf.tmw", 320555},
+                              {"ppmwtlj.btf", 64779},
+                              {"dtzw", 10518},
+                              {"bwjjdszc", 20883}
+                            ]
+                          }
+                        },
+                        files: [{"mjm.dhc", 326446}]
+                      },
+                      "trqhm" => %{children: %{}, files: [{"rmnmsl", 184138}]}
+                    },
+                    files: [
+                      {"tvnrl", 140014},
+                      {"lwnl.jsl", 277561},
+                      {"gjhzr.ffz", 200734}
+                    ]
+                  },
+                  "zfhnw" => %{
+                    children: %{
+                      "pjqwq" => %{
+                        children: %{
+                          "qjzscp" => %{
+                            children: %{},
+                            files: [{"tvnrl", 299311}]
+                          }
+                        },
+                        files: []
+                      }
+                    },
+                    files: []
+                  }
+                },
+                files: [
+                  {"vghhgvjq", 253162},
+                  {"rlzjl", 199021},
+                  {"dcchtmp", 331077}
+                ]
+              },
+              "szqz" => %{
+                children: %{
+                  "bqpwdh" => %{
+                    children: %{
+                      "mlm" => %{children: %{}, files: [{"mlm.rnn", 178616}]}
+                    },
+                    files: []
+                  },
+                  "zwvzzz" => %{children: %{}, files: [{"rrbv.ntn", 135690}]}
+                },
+                files: [
+                  {"zjdlztw", 301721},
+                  {"vtmgq.bcz", 109752},
+                  {"jmqq", 107678}
+                ]
+              },
+              "zfhnw" => %{
+                children: %{
+                  "dtgnbb" => %{children: %{}, files: [{"zjq", 74360}]}
+                },
+                files: [{"mjm.dhc", 119612}, {"dtzw", 55267}]
+              }
+            },
+            files: [
+              {"vwl.vsq", 155914},
+              {"vpdbrh", 285948},
+              {"tvnrl", 76621},
+              {"mrqdw.npr", 294364},
+              {"mjm.dhc", 315267}
+            ]
+          }
+        },
+        files: [
+          {"zfhnw.jfd", 18557},
+          {"vljqzqg", 49534},
+          {"tvnrl", 12680},
+          {"rrtnthnt.zgs", 122034},
+          {"cvrd.hcf", 290515}
+        ]
+      },
+      "mqjrd" => %{
+        children: %{"ccnpn" => %{children: %{}, files: [{"pjqwq.ctj", 116424}]}},
+        files: [{"rmnmsl", 176761}]
+      },
+      "mrqjg" => %{
+        children: %{
+          "bsphvqnh" => %{children: %{}, files: [{"pscn.zdh", 101783}]}
+        },
+        files: [
+          {"vtqjh.wfj", 260476},
+          {"vpdbrh", 231144},
+          {"mlm.mbn", 211569},
+          {"mjm.dhc", 287488},
+          {"lwfdlqzq.wmj", 266338}
+        ]
+      },
+      "rglgbsq" => %{
+        children: %{
+          "bqpwdh" => %{
+            children: %{},
+            files: [
+              {"vpdbrh.lbn", 102195},
+              {"nqdlf.trh", 53750},
+              {"mjm.dhc", 35649}
+            ]
+          },
+          "fdmhnzw" => %{children: %{}, files: [{"dtzw", 222384}]},
+          "fgz" => %{
+            children: %{
+              "rzrsgst" => %{
+                children: %{
+                  "zfhnw" => %{children: %{}, files: [{"fmbzztww.hvt", 154286}]}
+                },
+                files: [{"dtzw", 120970}]
+              },
+              "tqdghbj" => %{children: %{}, files: [{"rmblptm", 275314}]}
+            },
+            files: []
+          },
+          "lftcr" => %{
+            children: %{},
+            files: [{"zfhnw.fjl", 215545}, {"cwjj.trb", 148378}]
+          },
+          "pjqwq" => %{
+            children: %{
+              "bppdtc" => %{children: %{}, files: [{"zfhnw.rfn", 276258}]},
+              "dnlzz" => %{
+                children: %{
+                  "zfhnw" => %{
+                    children: %{
+                      "rzht" => %{children: %{}, files: [{"thj", 100504}]}
+                    },
+                    files: []
+                  }
+                },
+                files: [{"ggdr.rgz", 239107}, {"cjzm.nhs", 286311}]
+              }
+            },
+            files: []
+          },
+          "rpz" => %{
+            children: %{
+              "pblmwf" => %{children: %{}, files: [{"mlm.zdq", 121117}]},
+              "zfhnw" => %{
+                children: %{
+                  "hgpnj" => %{children: %{}, files: [{"vwl.vsq", 103619}]},
+                  "lvhwhz" => %{
+                    children: %{
+                      "gjwth" => %{
+                        children: %{
+                          "bqpwdh" => %{
+                            children: %{},
+                            files: [{"rmnmsl", 186274}]
+                          }
+                        },
+                        files: [
+                          {"whdwbssf.tss", 89091},
+                          {"pjqwq.djg", 290123},
+                          {"css", 128093}
+                        ]
+                      },
+                      "lwsdfhg" => %{
+                        children: %{},
+                        files: [{"mjm.dhc", 218938}]
+                      },
+                      "vpdbrh" => %{children: %{}, files: [{"lrrjnvr", 139398}]}
+                    },
+                    files: [
+                      {"zmwhlcsw", 313830},
+                      {"mlm", 41403},
+                      {"mjm.dhc", 51327},
+                      {"jfcmcq", 118100},
+                      {"bqpwdh.qtn", 236328}
+                    ]
+                  },
+                  "mlm" => %{
+                    children: %{},
+                    files: [
+                      {"vwl.vsq", 29208},
+                      {"tvnrl", 176936},
+                      {"fdlb.jsr", 278462}
+                    ]
+                  },
+                  "pcfljzhm" => %{children: %{}, files: [{"nnvq.lcg", 295983}]},
+                  "vpdbrh" => %{
+                    children: %{},
+                    files: [{"pmbzp.mmg", 52872}, {"lswwmjc.vmv", 16998}]
+                  }
+                },
+                files: [{"gwbrctf", 281353}]
+              }
+            },
+            files: [{"rmnmsl", 261712}, {"brsnhb", 182300}]
+          },
+          "vpcq" => %{
+            children: %{
+              "tnrpllzj" => %{children: %{}, files: [{"nqrjs.qds", 226232}]}
+            },
+            files: []
+          },
+          "zfhnw" => %{
+            children: %{},
+            files: [
+              {"vzctflm", 178366},
+              {"lst.wvw", 217287},
+              {"lnwwh", 263511},
+              {"dtzw", 188324}
+            ]
+          }
+        },
+        files: [{"rmnmsl", 1614}, {"hbj.lgh", 213313}]
+      },
+      "wlqhpwqv" => %{
+        children: %{
+          "bqpwdh" => %{children: %{}, files: [{"dnqngfzh", 194389}]},
+          "ffw" => %{
+            children: %{
+              "mfqd" => %{children: %{}, files: [{"vwl.vsq", 214846}]},
+              "npgnwwf" => %{
+                children: %{
+                  "ddqsmtsj" => %{children: %{}, files: [{"rmnmsl", 309790}]},
+                  "gcq" => %{children: %{}, files: [{"lvqhwzfn", 80203}]},
+                  "ldtpnr" => %{
+                    children: %{
+                      "spzj" => %{
+                        children: %{},
+                        files: [{"bpgpdzt.zzp", 139171}]
+                      }
+                    },
+                    files: [{"tvnrl", 123522}]
+                  }
+                },
+                files: [{"vwl.vsq", 1802}]
+              },
+              "tcvt" => %{
+                children: %{
+                  "jcvcjz" => %{
+                    children: %{},
+                    files: [{"vpdbrh", 309010}, {"hsv.wsr", 274564}]
+                  },
+                  "qmtcr" => %{
+                    children: %{
+                      "mfjd" => %{children: %{}, files: [{"vpdbrh", 202111}]},
+                      "pmbdsb" => %{
+                        children: %{
+                          "brghd" => %{children: %{}, files: [{"dtzw", 216516}]}
+                        },
+                        files: [{"chwzrz.bmf", 313440}]
+                      }
+                    },
+                    files: []
+                  },
+                  "vpdbrh" => %{children: %{}, files: [{"sbs.bsn", 134552}]}
+                },
+                files: []
+              }
+            },
+            files: []
+          },
+          "lpzgcrd" => %{
+            children: %{
+              "gcwg" => %{
+                children: %{
+                  "bqpwdh" => %{children: %{}, files: [{"fbjdqsn.cgp", 79064}]},
+                  "pjqwq" => %{
+                    children: %{},
+                    files: [
+                      {"vwl.vsq", 209574},
+                      {"rmnmsl", 249876},
+                      {"pjqwq.lsn", 313462},
+                      {"mhdq.lhc", 204740},
+                      {"cplcj", 106371}
+                    ]
+                  },
+                  "vpdbrh" => %{
+                    children: %{},
+                    files: [{"rmnmsl", 270734}, {"mjm.dhc", 166549}]
+                  },
+                  "vqp" => %{
+                    children: %{
+                      "nbq" => %{
+                        children: %{},
+                        files: [
+                          {"vpdbrh.fmw", 97954},
+                          {"tbwpwtt.ccj", 70181},
+                          {"smd", 314393},
+                          {"mjm.dhc", 63369}
+                        ]
+                      },
+                      "nts" => %{children: %{}, files: [{"zfhnw.pnj", 11300}]},
+                      "rlbhdgm" => %{
+                        children: %{
+                          "bzd" => %{
+                            children: %{
+                              "bqpwdh" => %{
+                                children: %{
+                                  "btb" => %{
+                                    children: %{
+                                      "rqftrtb" => %{
+                                        children: %{
+                                          "ndwphjw" => %{
+                                            children: %{},
+                                            files: [{"lpprpwjq.srz", 256159}]
+                                          },
+                                          "pjqwq" => %{
+                                            children: %{
+                                              "fpb" => %{
+                                                children: %{},
+                                                files: [{"pjqwq", 42692}]
+                                              }
+                                            },
+                                            files: []
+                                          },
+                                          "zfhnw" => %{
+                                            children: %{
+                                              "bqpwdh" => %{
+                                                children: %{},
+                                                files: [{"mshfwzv.ppr", 17467}]
+                                              }
+                                            },
+                                            files: []
+                                          }
+                                        },
+                                        files: []
+                                      },
+                                      "vsb" => %{
+                                        children: %{},
+                                        files: [{"rmnmsl", 278554}]
+                                      }
+                                    },
+                                    files: []
+                                  },
+                                  "lwl" => %{
+                                    children: %{},
+                                    files: [{"mjm.dhc", 28409}]
+                                  },
+                                  "trpm" => %{
+                                    children: %{
+                                      "mlm" => %{
+                                        children: %{
+                                          "mvh" => %{
+                                            children: %{},
+                                            files: [{"cgfw.pgm", 99770}]
+                                          },
+                                          "tdhrrhm" => %{
+                                            children: %{},
+                                            files: [
+                                              {"mlm", 157903},
+                                              {"lrmsnt.fdh", 326653}
+                                            ]
+                                          }
+                                        },
+                                        files: [
+                                          {"nzc.vhj", 52532},
+                                          {"mjm.dhc", 108223},
+                                          {"dtzw", 304742}
+                                        ]
+                                      }
+                                    },
+                                    files: []
+                                  }
+                                },
+                                files: [
+                                  {"qlwgqnsp", 210303},
+                                  {"qcfqd.fwz", 112215},
+                                  {"gzj.mhf", 37220}
+                                ]
+                              },
+                              "dtb" => %{
+                                children: %{},
+                                files: [
+                                  {"vpdbrh.hpv", 3435},
+                                  {"vpdbrh", 179072}
+                                ]
+                              },
+                              "gmlgvnq" => %{
+                                children: %{
+                                  "rrjgswsd" => %{
+                                    children: %{
+                                      "zfhnw" => %{
+                                        children: %{},
+                                        files: [{"mvqbv", 278562}]
+                                      }
+                                    },
+                                    files: []
+                                  }
+                                },
+                                files: []
+                              },
+                              "pdmqn" => %{
+                                children: %{},
+                                files: [{"pjqwq", 233744}]
+                              },
+                              "wmtdbrqm" => %{
+                                children: %{
+                                  "lngc" => %{
+                                    children: %{},
+                                    files: [{"zfhnw", 4415}]
+                                  },
+                                  "wgpwcj" => %{
+                                    children: %{
+                                      "rqhshd" => %{
+                                        children: %{},
+                                        files: [{"qwhr", 145902}]
+                                      }
+                                    },
+                                    files: [
+                                      {"vwl.vsq", 49222},
+                                      {"mzjlswr.spn", 97910},
+                                      {"dlpr", 331254},
+                                      {"bqpwdh.ngg", 165889}
+                                    ]
+                                  }
+                                },
+                                files: [{"wphwht.nvn", 225374}]
+                              }
+                            },
+                            files: [
+                              {"zfhnw.gmt", 52142},
+                              {"smvjvw", 122491},
+                              {"hnpjbjsc.whd", 101839},
+                              {"fttt.twt", 22418},
+                              {"cdlg.zhp", 168832}
+                            ]
+                          },
+                          "hfhzj" => %{
+                            children: %{},
+                            files: [{"mjm.dhc", 146918}, {"ldlpnvw", 92623}]
+                          },
+                          "pztwz" => %{
+                            children: %{
+                              "jllmcfjf" => %{
+                                children: %{},
+                                files: [
+                                  {"rmnmsl", 14466},
+                                  {"ntwzgfr", 164199},
+                                  {"mbh.vdq", 81345},
+                                  {"dtzw", 245363}
+                                ]
+                              }
+                            },
+                            files: []
+                          }
+                        },
+                        files: [{"mbrqjnp.wqz", 65400}]
+                      },
+                      "srvqpq" => %{
+                        children: %{},
+                        files: [{"zfhnw.rlc", 271019}]
+                      },
+                      "zfhnw" => %{
+                        children: %{},
+                        files: [{"lspg", 12312}, {"bqpwdh.qqv", 104520}]
+                      }
+                    },
+                    files: []
+                  }
+                },
+                files: [
+                  {"vwl.vsq", 186883},
+                  {"pfpwtsp", 9496},
+                  {"dtzw", 304960}
+                ]
+              },
+              "mlm" => %{
+                children: %{
+                  "rjshqvb" => %{children: %{}, files: [{"mlm.qmm", 309983}]}
+                },
+                files: [{"cbgmp", 259906}]
+              },
+              "nfj" => %{
+                children: %{
+                  "rfmw" => %{children: %{}, files: [{"bcbjq.vlw", 273185}]}
+                },
+                files: [{"njrrs.sjj", 228634}, {"mlm", 44759}]
+              },
+              "trbwtdb" => %{
+                children: %{},
+                files: [{"zzg", 301028}, {"mjm.dhc", 307053}]
+              },
+              "vpdbrh" => %{
+                children: %{
+                  "bzdp" => %{
+                    children: %{},
+                    files: [{"vpdbrh.lsj", 241249}, {"trrzqz", 225941}]
+                  },
+                  "pjqwq" => %{
+                    children: %{
+                      "ddfpql" => %{
+                        children: %{},
+                        files: [{"lpbp.bpt", 103799}]
+                      },
+                      "fgbqzm" => %{
+                        children: %{
+                          "spsz" => %{children: %{}, files: [{"mfgph", 34049}]}
+                        },
+                        files: []
+                      },
+                      "phf" => %{children: %{}, files: [{"qdj.hbt", 84883}]}
+                    },
+                    files: [{"mlm.ffp", 6701}, {"mjm.dhc", 329174}]
+                  }
+                },
+                files: [{"vwl.vsq", 123590}, {"grnvt.mst", 169466}]
+              },
+              "ztwbpvbq" => %{
+                children: %{
+                  "wdhjpzp" => %{children: %{}, files: [{"pjqwq", 119932}]}
+                },
+                files: [
+                  {"tvnrl", 318963},
+                  {"sswtt", 335933},
+                  {"ngm", 9087},
+                  {"cqmbgfdh.gvh", 151403},
+                  {"bqpwdh.mlr", 138429}
+                ]
+              }
+            },
+            files: [
+              {"rtwwbgfs.nvl", 189443},
+              {"flgfbstp.flp", 118275},
+              {"bqpwdh.hsz", 244257}
+            ]
+          },
+          "lszdbd" => %{
+            children: %{
+              "cpqpvbz" => %{
+                children: %{
+                  "ltlcz" => %{children: %{}, files: [{"zfhnw.zsg", 262150}]},
+                  "wmpsvm" => %{
+                    children: %{
+                      "bqpwdh" => %{
+                        children: %{},
+                        files: [{"zfhnw", 44038}, {"pvhcb.qmw", 51488}]
+                      }
+                    },
+                    files: []
+                  }
+                },
+                files: []
+              },
+              "hnl" => %{
+                children: %{
+                  "pjqwq" => %{children: %{}, files: [{"mhg.ddj", 170454}]}
+                },
+                files: []
+              },
+              "llprt" => %{
+                children: %{},
+                files: [
+                  {"zdb", 112867},
+                  {"qbpcd", 297846},
+                  {"mgqz", 180660},
+                  {"dtzw", 207425},
+                  {"bmvwwbdt.cqm", 268114}
+                ]
+              }
+            },
+            files: []
+          },
+          "ntcpvg" => %{
+            children: %{},
+            files: [{"vwl.vsq", 257792}, {"bqpwdh.gbr", 74161}]
+          },
+          "pjqwq" => %{
+            children: %{
+              "jsdbnwrc" => %{children: %{}, files: [{"fvj", 11720}]},
+              "pcjfjsgs" => %{
+                children: %{
+                  "bqpwdh" => %{
+                    children: %{},
+                    files: [
+                      {"zqqcb", 239759},
+                      {"zfhnw", 159280},
+                      {"dlrvsj", 42769}
+                    ]
+                  },
+                  "ssq" => %{children: %{}, files: [{"bqpwdh.csb", 67639}]},
+                  "vpdbrh" => %{
+                    children: %{
+                      "bqdpwrst" => %{
+                        children: %{},
+                        files: [{"vpdbrh", 132712}, {"fndpnj.fgt", 57800}]
+                      },
+                      "qtj" => %{
+                        children: %{
+                          "szjtvcb" => %{
+                            children: %{
+                              "stbczmlq" => %{
+                                children: %{
+                                  "nhq" => %{
+                                    children: %{},
+                                    files: [{"hqgngdt.tmq", 27749}]
+                                  }
+                                },
+                                files: []
+                              }
+                            },
+                            files: [{"mgmqtdb.fzd", 93993}]
+                          }
+                        },
+                        files: []
+                      }
+                    },
+                    files: []
+                  }
+                },
+                files: [{"mjm.dhc", 195046}]
+              },
+              "vllzsh" => %{
+                children: %{
+                  "nlwwrz" => %{children: %{}, files: [{"bjv.szl", 99990}]},
+                  "zhmwl" => %{
+                    children: %{
+                      "hbpps" => %{children: %{}, files: [{"mlm.ltq", 7520}]},
+                      "hfv" => %{
+                        children: %{
+                          "qpfrd" => %{
+                            children: %{
+                              "mlm" => %{
+                                children: %{},
+                                files: [{"qmtpwqn", 288919}]
+                              }
+                            },
+                            files: []
+                          }
+                        },
+                        files: []
+                      }
+                    },
+                    files: []
+                  }
+                },
+                files: [{"wlgbt", 237293}]
+              }
+            },
+            files: [{"tvnrl", 208212}, {"rqrtcq", 11113}, {"hwdgzvj", 279738}]
+          },
+          "pmpftw" => %{
+            children: %{},
+            files: [{"tvnrl", 128800}, {"pjqwq", 103896}, {"mlm", 118859}]
+          },
+          "ppf" => %{
+            children: %{
+              "drszpqf" => %{
+                children: %{
+                  "pjqwq" => %{
+                    children: %{
+                      "lrrlbgwh" => %{
+                        children: %{},
+                        files: [{"vpdbrh.lgz", 238706}, {"mjm.dhc", 182434}]
+                      },
+                      "nfcc" => %{
+                        children: %{},
+                        files: [{"vwl.vsq", 268229}, {"vpdbrh", 253846}]
+                      },
+                      "pqm" => %{children: %{}, files: [{"vwl.vsq", 56573}]}
+                    },
+                    files: []
+                  },
+                  "qtblb" => %{
+                    children: %{},
+                    files: [{"zmhw.lhm", 52282}, {"zcm.dtw", 28941}]
+                  }
+                },
+                files: [{"tvnrl", 191392}]
+              },
+              "fbs" => %{
+                children: %{
+                  "gpttw" => %{
+                    children: %{
+                      "bqpwdh" => %{
+                        children: %{},
+                        files: [{"wvzhlfht.rdd", 98780}]
+                      }
+                    },
+                    files: []
+                  }
+                },
+                files: []
+              },
+              "ldnrpg" => %{
+                children: %{},
+                files: [{"pcq.clf", 54924}, {"bqpwdh.qlb", 205523}]
+              },
+              "tfjnj" => %{
+                children: %{
+                  "lwl" => %{children: %{}, files: [{"dhrl", 150713}]},
+                  "qsgpsmzw" => %{
+                    children: %{},
+                    files: [
+                      {"wdb", 182224},
+                      {"ntgrlr", 92636},
+                      {"bqpwdh", 265288}
+                    ]
+                  },
+                  "vljqlw" => %{
+                    children: %{
+                      "pcnd" => %{
+                        children: %{},
+                        files: [
+                          {"vwl.vsq", 182837},
+                          {"tvnrl", 183891},
+                          {"rmnmsl", 195909},
+                          {"gmq", 8283}
+                        ]
+                      },
+                      "pjqwq" => %{
+                        children: %{
+                          "vwp" => %{
+                            children: %{
+                              "crpztfmf" => %{
+                                children: %{},
+                                files: [{"dpztgnd", 257441}]
+                              },
+                              "fhrfrbqg" => %{
+                                children: %{},
+                                files: [{"mjm.dhc", 64573}]
+                              }
+                            },
+                            files: []
+                          }
+                        },
+                        files: []
+                      }
+                    },
+                    files: [{"tvnrl", 317809}]
+                  }
+                },
+                files: [
+                  {"zgjhtrv", 100780},
+                  {"vwl.vsq", 225025},
+                  {"rmnmsl", 278576},
+                  {"mjm.dhc", 295520},
+                  {"bqpwdh.bvf", 237752}
+                ]
+              }
+            },
+            files: [{"mbbmmf.plr", 176398}, {"gdpw.bds", 202594}]
+          },
+          "vpdbrh" => %{
+            children: %{"qzmz" => %{children: %{}, files: [{"wsfwpznj", 9583}]}},
+            files: [
+              {"zqnp", 28910},
+              {"tvnrl", 100029},
+              {"qfjwb", 266777},
+              {"mjm.dhc", 80449}
+            ]
+          },
+          "zfhnw" => %{
+            children: %{
+              "pmdsb" => %{
+                children: %{
+                  "bqpwdh" => %{
+                    children: %{
+                      "tstqlh" => %{
+                        children: %{},
+                        files: [{"tcmglrz.hzp", 119310}]
+                      }
+                    },
+                    files: [{"vpdbrh.thr", 143862}]
+                  },
+                  "pjqwq" => %{children: %{}, files: [{"rmnmsl", 56885}]}
+                },
+                files: []
+              },
+              "zdv" => %{
+                children: %{
+                  "pjdhn" => %{
+                    children: %{
+                      "gnthzp" => %{
+                        children: %{
+                          "bqpwdh" => %{
+                            children: %{},
+                            files: [{"rmnmsl", 312253}]
+                          }
+                        },
+                        files: []
+                      },
+                      "rvbw" => %{
+                        children: %{
+                          "cjdhwbv" => %{
+                            children: %{},
+                            files: [{"tmj.frb", 173182}, {"tbhb", 302711}]
+                          }
+                        },
+                        files: [{"vwl.vsq", 99445}, {"lsmmthf", 268173}]
+                      }
+                    },
+                    files: [{"svmpwv", 117225}, {"qhrz.ssb", 116732}]
+                  }
+                },
+                files: [
+                  {"vhbjqhhq.tbf", 178813},
+                  {"rmnmsl", 154423},
+                  {"pjqwq.vrq", 119411},
+                  {"nhcdqmd.hgh", 209148}
+                ]
+              }
+            },
+            files: [{"vwl.vsq", 106595}]
+          }
+        },
+        files: [{"mlm", 51178}]
+      }
+    },
+    files: [{"tjmjp.cqm", 298050}]
+  }
+}
